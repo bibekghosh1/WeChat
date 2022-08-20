@@ -10,8 +10,8 @@
 
 
     <color name="colorPrimary">#4d0f7a</color>
-    <color name="colorPrimaryDark">#2E0B36</color>
-    <color name="colorAccent">#A334FA</color>
+    <color name="colorPrimaryDark">#4d0f7a</color>
+    <color name="colorAccent">#36005a</color>
     <color name="lightGrey">#EDEDED</color>
     <color name="darkGray">#a9a9a9</color>
     <color name="blue">#3010E7</color>
