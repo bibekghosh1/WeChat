@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:id="@+id/profileImage"
+        android:src="@drawable/avatar"
+        android:layout_marginLeft="@dimen/_3sdp"
+        android:layout_marginRight="@dimen/_3sdp"
+        android:paddingBottom="@dimen/_3sdp"
+        android:paddingTop="@dimen/_3sdp"
+        app:civ_border_width="@dimen/_1sdp"
+        app:civ_border_color="@color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bibek_ghosh"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/black"
+            android:id="@+id/userName"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:text="@string/blank"
+            android:id="@+id/lastMessage"
+            android:paddingTop="@dimen/_1sdp"
+            android:layout_marginStart="@dimen/_1sdp"
+            android:paddingBottom="@dimen/_5sdp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

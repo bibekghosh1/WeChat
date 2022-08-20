@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">WeChat</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calls_fragments">Calls Fragments</string>
+    <string name="status_fragments">Status Fragments</string>
+    <string name="chats_fragments">Chats Fragments</string>
+    <string name="bibek_ghosh">Bibek Ghosh</string>
+    <string name="message">Message</string>
+    <string name="username">UserName</string>
+    <string name="receiverText">Hey, there what\'s up?</string>
+    <string name="nothing_much">Nothing much !</string>
+    <string name="_12_29pm">12:29pm</string>
+    <string name="_10_04_am">10:04 am</string>
+    <string name="groupchat">GroupChat</string>
+    <string name="last_message">last message</string>
+    <string name="your_name">Your name</string>
+    <string name="about">About</string>
+    <string name="save">Save</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about_us">About Us</string>
+    <string name="invite_a_friend">Invite a Friend</string>
+    <string name="notification">Notification</string>
+    <string name="help">Help</string>
+    <string name="it_s_under_develop">it\'s Under develop</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="don_t_have_account">Don\'t Have Account?</string>
+    <string name="sign_up_with_number">Sign Up with Number</string>
+    <string name="settings">Settings</string>
+    <string name="group_chat">Group Chat</string>
+    <string name="logout">Logout</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="send">send</string>
+    <string name="back">Back</string>
+    <string name="voice_call">Voice Call</string>
+    <string name="video_call">Video Call</string>
+    <string name="more_options">more options</string>
+    <string name="upload_profile">upload profile</string>
+    <string name="user_name">Username</string>
+    <string name="blank" />
+    <string name="wechat">WeChat</string>
+    <string name="e_mail">E-mail</string>
+    <string name="already_have_account">Already have account ?</string>
+    <string name="sign_up_with_phone">Sign Up with Phone</string>
+    <string name="all_members">All Members</string>
+</resources>
