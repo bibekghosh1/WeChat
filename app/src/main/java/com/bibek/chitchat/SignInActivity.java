@@ -1,12 +1,12 @@
 package com.bibek.chitchat;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.bibek.chitchat.databinding.ActivitySignInBinding;
 import com.bibek.chitchat.models.Users;

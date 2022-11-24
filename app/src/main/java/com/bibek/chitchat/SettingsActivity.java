@@ -1,13 +1,13 @@
 package com.bibek.chitchat;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.bibek.chitchat.databinding.ActivitySettingsBinding;
 import com.bibek.chitchat.models.Users;
@@ -23,7 +23,7 @@ import com.squareup.picasso.Picasso;
 import java.util.HashMap;
 import java.util.Objects;
 
-public class SettingsActivity extends AppCompatActivity {
+public class SettingsActivity extends AppCompatActivity{
 
     ActivitySettingsBinding binding;
     FirebaseAuth auth;

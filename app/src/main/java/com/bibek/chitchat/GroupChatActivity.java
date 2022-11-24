@@ -2,18 +2,17 @@ package com.bibek.chitchat;
 
 import static com.bibek.chitchat.R.string.all_members;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+
 import com.bibek.chitchat.Adapter.ChatAdapter;
 import com.bibek.chitchat.databinding.ActivityGroupChatBinding;
 import com.bibek.chitchat.models.MessageModels;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -24,7 +23,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Objects;
 
-public class GroupChatActivity extends AppCompatActivity {
+public class GroupChatActivity extends AppCompatActivity{
 
     ActivityGroupChatBinding binding;
 
@@ -35,7 +34,6 @@ public class GroupChatActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         Objects.requireNonNull(getSupportActionBar()).hide(); //this will hide topBar
-
         final FirebaseDatabase database=FirebaseDatabase.getInstance();
         final ArrayList<MessageModels> messageModel=new ArrayList<>(); //creating a messageModels type ArrayList Obj
 

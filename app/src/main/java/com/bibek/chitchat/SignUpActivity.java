@@ -1,11 +1,11 @@
 package com.bibek.chitchat;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.bibek.chitchat.databinding.ActivitySignUpBinding;
 import com.bibek.chitchat.models.Users;
@@ -14,7 +14,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Objects;
 
-public class SignUpActivity extends AppCompatActivity {
+public class SignUpActivity extends AppCompatActivity{
             private FirebaseAuth mAuth;
             FirebaseDatabase database;
             ProgressDialog progressDialog;

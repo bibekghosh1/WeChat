@@ -1,8 +1,5 @@
 package com.bibek.chitchat;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,13 +7,16 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.bibek.chitchat.Adapter.FragmentsAdapter;
 import com.bibek.chitchat.databinding.ActivityMainBinding;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.Objects;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
             FirebaseAuth mAuth;
             ActivityMainBinding binding;
 

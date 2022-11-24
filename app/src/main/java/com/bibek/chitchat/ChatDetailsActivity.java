@@ -1,17 +1,16 @@
 package com.bibek.chitchat;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+
 import com.bibek.chitchat.Adapter.ChatAdapter;
 import com.bibek.chitchat.databinding.ActivityChatDetailsBinding;
 import com.bibek.chitchat.models.MessageModels;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -27,6 +26,8 @@ public class ChatDetailsActivity extends AppCompatActivity {
     ActivityChatDetailsBinding binding;
     FirebaseAuth auth;
     FirebaseDatabase database;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
